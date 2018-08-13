@@ -36,10 +36,9 @@ Phiên bản hệ điều hành: Centos 7 Server 64 bit
 - Đăng nhập vào OS với tài khoản root.
 - Tạo và gán cấu hình sudo cho user `stack`
 ```sh
-adduser stack
-yum -y install sudo 
-yum -y install git
-echo "stack ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+sudo useradd -s /bin/bash -d /opt/stack -m stack
+echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/stack
+sudo su - stack
 
 ```
 
