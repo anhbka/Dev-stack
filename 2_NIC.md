@@ -112,7 +112,7 @@ Trong file khai báo trên đã thực hiện:
 - FIXED_RANGE=10.0.0.0/24 Dải IP private
 
 ### Các lệnh sử dụng trong devstack:
-
+``` sh
 Restart services dùng systemctl:
 
 sudo systemctl -a  | grep devstack        (Status for All services)
@@ -164,7 +164,7 @@ ctrl+c                                  (Stop the service)
 Click UP-Arrow (key) and press Enter  (Recall and execute previous service Start cmd)
 ctr+a d                                (Detach from the screen)
 exit
-
+```
 
 
 
