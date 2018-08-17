@@ -9,7 +9,7 @@
 Cấu hình:
  - RAM 8GB
  - HDD:100GB
- - NIC: 01: 192.168.239.0/24
+ - NIC: 01: 172.16.91.0.0/24
 
 Phiên bản hệ điều hành: Centos 7 Server 64 bit
  
