@@ -1,12 +1,12 @@
 Bước 1:
 
-Chuẩn bị một máy Ubuntu 14.04 Server 64 bit với cấu hình
+Chuẩn bị một máy Ubuntu 16.04 Server 64 bit với cấu hình
 
 Cấu hình tối thiểu
 ```
  - RAM 4GB
  - HDD:60GB
- - NIC: 01: 192.168.1.0/24
+ - NIC: 01: 192.168.30.0/24
 ```
 
 Phiên bản hệ điều hành: Ubuntu Server 14.04 64 bit
