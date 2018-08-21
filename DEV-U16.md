@@ -40,7 +40,7 @@ Mặc định (nhánh master) trong git của devstack là source mới nhất c
 
 
 
-git clone  https://github.com/openstack-dev/devstack.git -b stable/queens
+`git clone  https://github.com/openstack-dev/devstack.git -b stable/queens`
 
 Bước 4: Tạo file local.conf
 
