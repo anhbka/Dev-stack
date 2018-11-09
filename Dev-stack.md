@@ -70,9 +70,6 @@ cd /devstack/
 -Tạo file local.conf với nội dung mẫu như sau, lưu ý tùy vào tình huống mà có thể sửa file này cho phù hợp.
 
 ``` sh
-git clone -b stable/queens https://github.com/openstack-dev/devstack.git
-git clone -b queens-eol https://github.com/openstack-dev/devstack.git
-
 ################################################################################# 
 
 [[local|localrc]]
